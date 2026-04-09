@@ -7,4 +7,4 @@ let Baixado = readline.questionInt("Quantos GB foram baixados?: ")
 
 let diferenca = armazenamento - Baixado
 
-console.log (`voce tem ${Baixado/armazenamento * 100}% do armazenamento`)
+console.log (`você tem ${Baixado/armazenamento * 100}% do armazenamento ocupado.`)
