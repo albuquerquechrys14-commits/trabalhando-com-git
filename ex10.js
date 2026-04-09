@@ -17,4 +17,4 @@ console.log("                            ")
 
 console.log ("--------LEITURA--------")
 
-    console.log (`voce ja leu ${Math.round((leitor/livro) * 100)}% do livro, faltam ${diferenca} páginas para terminar!`)
+    console.log (`você ja leu ${Math.round((leitor/livro) * 100)}% do livro, faltam ${diferenca} páginas para terminar!`)
