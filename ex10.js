@@ -4,7 +4,7 @@ const readline = require ("readline-sync")
 let livro = 300 
 console.log("-------------------------------")
 console.log("|------------BIBLIOTECA---------|")
-console.log("==------------------------------")
+console.log("--------------------------------")
 let cliente = readline.question ("qual o livro que alugou? ")
 console.log ("                   ")
 console.log("|------------LIVRO---------|")
