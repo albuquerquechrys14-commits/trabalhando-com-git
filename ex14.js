@@ -7,8 +7,8 @@ let vendaDiaria = readline.questionFloat ("valor total faturado no dia (R$): ")
 let percentual = (vendaDiaria / metaDiaria) * 100
 let diferenca = metaDiaria - vendaDiaria
 
-if (vendaDiaria <= metaDiaria) {
-    console.log (`O mercado não atingiu a meta diária. Faltou ${((diferenca / metaDiaria) * 100).toFixed(2)}%.`)
+if (vendaDiaria < metaDiaria) {
+    console.log (`O mercado não atingiu a meta diária. Faltou ${percentual.toFixed(2)}%.`)
 }else {
-    console.log (`Parabéns! O mercado atingiu a meta diária. Você bateu (ou excedeu) a meta em ${((vendaDiaria - metaDiaria) / metaDiaria * 100).toFixed(2)}%.`)
+    console.log (`Parabéns! O mercado atingiu a meta diária. Você bateu (ou excedeu) a meta em ${percentual.toFixed(2)}%.`)
 }
