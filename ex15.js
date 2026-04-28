@@ -9,7 +9,7 @@ let percentual = (calorias / limiteDiario) * 100
 console.log ("")
 console.log ("===========RESULTADO DO DIA===========")
 
-if (calorias == limiteDiario) {
+if (calorias <= limiteDiario) {
     console.log (`Você está dentro do limite.`)
 } else {
     console.log (`Você ultrapassou ${percentual.toFixed(2)}% do limite.`)
